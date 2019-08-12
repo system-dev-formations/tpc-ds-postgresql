@@ -28,7 +28,7 @@ Environment=PGDATA=/opt/pg/data
 
 
 ExecStart=/opt/postgresql/bin/pg_ctl start -D ${PGDATA} -s -w -t ${PGSTARTTIMEOUT}
-ExecStop=/opt/postgresql/bin/pg_ctl stop -D ${PGDATA} -s -m fast
+ExecStop=/opt/postgresql/bin/pg_ctl stop -D ${PGDATA} -s -m smart 
 ExecReload=/opt/postgresql/bin/pg_ctl reload -D ${PGDATA} -s
 
 # Give a reasonable amount of time for the server to start up/shut down.
