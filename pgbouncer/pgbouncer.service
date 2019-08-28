@@ -11,7 +11,7 @@ PermissionsStartOnly=true
 ExecStartPre=-/usr/bin/mkdir -p /var/run/pgbouncer /var/log/pgbouncer
 ExecStartPre=/usr/bin/chown -R postgres:postgres /var/run/pgbouncer /var/log/pgbouncer
 
-ExecStart=/opt/postgresql/bin/pgbouncer -d /opt/postgresql/share/doc/pgbouncer/pgbouncer.ini
+ExecStart=/opt/pgbouncer/bin/pgbouncer -d /opt/postgresql/share/doc/pgbouncer/pgbouncer.ini
 ExecReload=/bin/kill -SIGHUP $MAINPID
 PIDFile=/var/run/pgbouncer/pgbouncer.pid
 
