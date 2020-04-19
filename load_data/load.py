@@ -22,10 +22,8 @@ for f in files:
   os.system(cmd )
 
   print("Loading  data file...",f )
-  cmd= """psql test-tpc -c "copy {} FROM '{}' CSV DELIMITER '|' "  """.format(table, f)
+  cmd= """psql test-tpc -c "\copy {} FROM '{}' CSV DELIMITER '|' "  """.format(table, f)
   os.system(cmd )
 
 
- #  #psql tpcds -q -c "TRUNCATE $table"
- #  #psql tpcds -c "\\copy $table FROM '$i' CSV DELIMITER '|'"
 
