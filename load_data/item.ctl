@@ -43,7 +43,7 @@ LOAD CSV
                                                                        i_units                ,
                                                                         i_container            ,
                                                                         i_manager_id           ,
-                                                                        i_product_name   
+                                                                        i_product_name
      )
      WITH truncate,
           fields terminated by '|'
