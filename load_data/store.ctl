@@ -57,7 +57,7 @@ LOAD CSV
                                                                           s_zip  ,
                                                                           s_country  ,
                                                                           s_gmt_offset  ,
-                                                                          s_tax_precentage   
+                                                                          s_tax_precentage
      )
      WITH truncate,
           fields terminated by '|'
