@@ -22,7 +22,7 @@ LOAD CSV
                                    wr_refunded_cash          ,
                                    wr_reversed_charge        ,
                                    wr_account_credit         ,
-                                   wr_net_loss              
+                                   wr_net_loss
      ) 
      INTO postgresql://postgres:password@localhost:5432/tpc-test?web_returns ( wr_returned_date_sk       ,
                                                                                wr_returned_time_sk       ,
