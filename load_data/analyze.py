@@ -6,7 +6,7 @@ import re
 
 path='/tmp'
 
-files= [f for f in glob.glob(path+"**/*.ctl")]
+files= [f for f in glob.glob(path+"**/*.dat")]
 
 for f in files:
   m= re.search('(\/tmp\/)(.*)(....)', f)
