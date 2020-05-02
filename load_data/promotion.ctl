@@ -1,5 +1,5 @@
 LOAD CSV
-   FROM '/tmp/promotion.dat' (  p_promo_sk       ,
+   FROM '/tmp/promotion.dat' ( p_promo_sk       ,
                                p_promo_id       ,
                                p_start_date_sk  ,
                                p_end_date_sk    ,
