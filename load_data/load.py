@@ -4,9 +4,9 @@ import glob
 import os
 import re
 
-path='.'
 
-files= [f for f in glob.glob(path+"**/*.ctl")]
+
+files= [f for f in glob.glob("*.ctl")]
 
 for f in files:
   m= re.search('(\/tmp\/)(.*)(....)', f)
