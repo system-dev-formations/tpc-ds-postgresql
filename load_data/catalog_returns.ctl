@@ -53,7 +53,7 @@ LOAD CSV
                                                                                       cr_refunded_cash          ,
                                                                                       cr_reversed_charge        ,
                                                                                       cr_store_credit           ,
-                                                                                      cr_net_loss                 
+                                                                                      cr_net_loss
      )
      WITH truncate,
           fields terminated by '|'
