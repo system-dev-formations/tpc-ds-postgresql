@@ -5,7 +5,7 @@ LOAD CSV
                                  cp_end_date_sk       ,
                                  cp_department        ,
                                  cp_catalog_number    ,
-                                 cp_catalog_page_numbe,
+                                 cp_catalog_page_number,
                                  cp_description       ,
                                  cp_type
 ) 
@@ -15,7 +15,7 @@ LOAD CSV
                                                                                  cp_end_date_sk       ,
                                                                                  cp_department        ,
                                                                                  cp_catalog_number    ,
-                                                                                 cp_catalog_page_numbe,
+                                                                                 cp_catalog_page_number,
                                                                                  cp_description       ,
                                                                                  cp_type
 )
