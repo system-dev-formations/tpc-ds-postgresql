@@ -22,7 +22,7 @@ for f in files:
   #os.system(cmd )
 
   print("Loading  data file...",f )
-  cmd= "pgloader {}".format(table, f)
+  cmd= "pgloader {}".format(f)
   os.system(cmd )
 
 
