@@ -82,7 +82,8 @@ LOAD CSV
         wr_refunded_cash          decimal(7,2)                  ,
         wr_reversed_charge        decimal(7,2)                  ,
         wr_account_credit         decimal(7,2)                  ,
-        wr_net_loss               decimal(7,2)
+        wr_net_loss               decimal(7,2),
+         primary key (wr_item_sk, wr_order_number)
        );
   $$;
 

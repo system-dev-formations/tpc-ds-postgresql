@@ -68,7 +68,8 @@ LOAD CSV
         p_channel_demo            char(1)                       ,
         p_channel_details         varchar(100)                  ,
         p_purpose                 char(15)                      ,
-        p_discount_active         char(1)        
+        p_discount_active         char(1) ,
+        primary key (p_promo_sk)
   );
   $$;
 

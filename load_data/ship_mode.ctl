@@ -31,7 +31,8 @@ LOAD CSV
     sm_type                   char(30)                      ,
     sm_code                   char(10)                      ,
     sm_carrier                char(20)                      ,
-    sm_contract               char(20)                    
+    sm_contract               char(20) ,
+     primary key (sm_ship_mode_sk)
 
   );
   $$;

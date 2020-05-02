@@ -8,7 +8,7 @@ ALTER TABLE reason ADD primary key (r_reason_sk);
 ALTER TABLE income_band ADD primary key (ib_income_band_sk);
 ALTER TABLE item ADD primary key (i_item_sk);
 ALTER TABLE store ADD primary key (s_store_sk);
-ALTER TABLE call_center ADD primary key (ss_item_sk, ss_ticket_number);
+ALTER TABLE call_center ADD primary key (cc_call_center_sk);
 ALTER TABLE customer ADD primary key (c_customer_sk);
 ALTER TABLE web_site ADD primary key (web_site_sk);
 ALTER TABLE store_returns ADD primary key (sr_item_sk, sr_ticket_number);

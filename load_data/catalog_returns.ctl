@@ -91,7 +91,8 @@ LOAD CSV
            cr_refunded_cash          decimal(7,2)                  ,
            cr_reversed_charge        decimal(7,2)                  ,
            cr_store_credit           decimal(7,2)                  ,
-           cr_net_loss               decimal(7,2)
+           cr_net_loss               decimal(7,2),
+             primary key (cr_item_sk, cr_order_number)
        );
   $$;
 

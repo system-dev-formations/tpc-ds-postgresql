@@ -64,7 +64,8 @@ LOAD CSV
                 c_birth_country           varchar(20)                   ,
                 c_login                   char(13)                      ,
                 c_email_address           char(50)                      ,
-                c_last_review_date_sk     integer    
+                c_last_review_date_sk     integer,
+                 primary key (c_customer_sk)
        );
   $$;
 

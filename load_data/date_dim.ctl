@@ -96,7 +96,8 @@ LOAD CSV
     d_current_week            char(1)                       ,
     d_current_month           char(1)                       ,
     d_current_quarter         char(1)                       ,
-    d_current_year            char(1) 
+    d_current_year            char(1) ,
+    primary key (d_date_sk)
   );
   $$;
 

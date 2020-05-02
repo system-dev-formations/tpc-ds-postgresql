@@ -40,8 +40,8 @@ LOAD CSV
     cd_credit_rating          char(10)                      ,
     cd_dep_count              integer                       ,
     cd_dep_employed_count     integer                       ,
-    cd_dep_college_count      integer                      
-
+    cd_dep_college_count      integer ,
+    primary key (cd_demo_sk)
   );
   $$;
 

@@ -41,7 +41,8 @@ LOAD CSV
        t_am_pm                   char(2)                       ,
        t_shift                   char(20)                      ,
        t_sub_shift               char(20)                      ,
-       t_meal_time               char(20)
+       t_meal_time               char(20),
+       primary key (t_time_sk)
   );
   $$;
 

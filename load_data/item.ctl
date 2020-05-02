@@ -76,7 +76,8 @@ LOAD CSV
         i_units                   char(10)                      ,
         i_container               char(10)                      ,
         i_manager_id              integer                       ,
-        i_product_name            char(50)
+        i_product_name            char(50),
+          primary key (i_item_sk)
        );
   $$;
 

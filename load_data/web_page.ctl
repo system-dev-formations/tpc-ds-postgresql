@@ -53,7 +53,8 @@ LOAD CSV
           wp_char_count             integer                       ,
           wp_link_count             integer                       ,
           wp_image_count            integer                       ,
-          wp_max_ad_count           integer
+          wp_max_ad_count           integer,
+          primary key (wp_web_page_sk)
   );
   $$;
 

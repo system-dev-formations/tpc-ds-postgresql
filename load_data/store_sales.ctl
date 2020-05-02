@@ -80,7 +80,8 @@ LOAD CSV
          ss_coupon_amt             decimal(7,2)                  ,
          ss_net_paid               decimal(7,2)                  ,
          ss_net_paid_inc_tax       decimal(7,2)                  ,
-         ss_net_profit             decimal(7,2)                  
+         ss_net_profit             decimal(7,2)     ,
+         primary key (ss_item_sk, ss_ticket_number)
        );
   $$;
 

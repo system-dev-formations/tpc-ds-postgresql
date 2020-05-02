@@ -38,7 +38,8 @@ LOAD CSV
             cp_catalog_number         integer                       ,
             cp_catalog_page_number    integer                       ,
             cp_description            varchar(100)                  ,
-            cp_type                   varchar(100)
+            cp_type                   varchar(100),
+             primary key (cp_catalog_page_sk)
 
   );
   $$;

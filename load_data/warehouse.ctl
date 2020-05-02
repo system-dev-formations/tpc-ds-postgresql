@@ -53,7 +53,8 @@ LOAD CSV
     w_state                   char(2)                       ,
     w_zip                     char(10)                      ,
     w_country                 varchar(20)                   ,
-    w_gmt_offset              decimal(5,2)       
+    w_gmt_offset              decimal(5,2) ,
+     primary key (w_warehouse_sk)
   );
   $$;
 
