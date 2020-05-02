@@ -10,7 +10,7 @@ LOAD CSV
                                                                                             hd_income_band_sk  ,
                                                                                             hd_buy_potential   ,
                                                                                             hd_dep_count       ,
-                                                                                            hd_vehicle_count    
+                                                                                            hd_vehicle_count
      )
 
      WITH truncate,
