@@ -10,7 +10,7 @@ LOAD CSV
                                    t_sub_shift  ,
                                    t_meal_time                          
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?time_dim ( t_time_sk ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?time_dim ( t_time_sk ,
                                                                             t_time_id ,
                                                                             t_time  ,
                                                                             t_hour  ,

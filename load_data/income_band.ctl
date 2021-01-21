@@ -4,7 +4,7 @@ LOAD CSV
                                       ib_upper_bound
 
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?income_band (ib_income_band_sk ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?income_band (ib_income_band_sk ,
                                                                               ib_lower_bound ,
                                                                               ib_upper_bound
      )

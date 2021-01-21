@@ -29,7 +29,7 @@ LOAD CSV
                                  s_gmt_offset  ,
                                  s_tax_precentage
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?store (  s_store_sk ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?store (  s_store_sk ,
                                                                           s_store_id ,
                                                                           s_rec_start_date  ,
                                                                           s_rec_end_date ,

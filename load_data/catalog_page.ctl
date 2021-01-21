@@ -9,7 +9,7 @@ LOAD CSV
                                  cp_description       ,
                                  cp_type
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?catalog_page (  cp_catalog_page_sk   ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?catalog_page (  cp_catalog_page_sk   ,
                                                                                  cp_catalog_page_id   ,
                                                                                  cp_start_date_sk     ,
                                                                                  cp_end_date_sk       ,

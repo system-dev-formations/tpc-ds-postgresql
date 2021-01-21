@@ -18,7 +18,7 @@ LOAD CSV
                                  c_email_address    ,
                                  c_last_review_date_sk
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?customer (  c_customer_sk        ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?customer (  c_customer_sk        ,
                                                                              c_customer_id      ,
                                                                              c_current_cdemo_sk ,
                                                                              c_current_hdemo_sk ,

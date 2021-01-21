@@ -4,7 +4,7 @@ LOAD CSV
                                  inv_warehouse_sk       ,
                                  inv_quantity_on_hand
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?inventory (   inv_date_sk            ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?inventory (   inv_date_sk            ,
                                                                                inv_item_sk            ,
                                                                                inv_warehouse_sk       ,
                                                                                inv_quantity_on_hand

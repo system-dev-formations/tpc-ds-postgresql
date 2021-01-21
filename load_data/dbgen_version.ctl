@@ -1,6 +1,6 @@
 LOAD CSV
      FROM '/tmp/dbgen_version.dat' (dv_version, dv_create_date,dv_create_time,dv_cmdline_args) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?dbgen_version (dv_version,dv_create_date,dv_create_time,dv_cmdline_args)
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?dbgen_version (dv_version,dv_create_date,dv_create_time,dv_cmdline_args)
 
      WITH truncate,
           fields terminated by '|'

@@ -14,7 +14,7 @@ LOAD CSV
     w_country         ,
     w_gmt_offset    
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?warehouse ( w_warehouse_sk ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?warehouse ( w_warehouse_sk ,
     w_warehouse_id     ,
     w_warehouse_name   ,
     w_warehouse_sq_ft  ,

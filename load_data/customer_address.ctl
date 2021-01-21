@@ -13,7 +13,7 @@ LOAD CSV
     ca_gmt_offset        ,
     ca_location_type     
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?customer_address (ca_address_sk,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?customer_address (ca_address_sk,
     ca_address_id        ,
     ca_street_number     ,
     ca_street_name       ,

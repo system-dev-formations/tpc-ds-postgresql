@@ -26,7 +26,7 @@ LOAD CSV
                                 web_gmt_offset ,
                                 web_tax_percentage
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?web_site (   web_site_sk   ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?web_site (   web_site_sk   ,
                                                                               web_site_id   ,
                                                                               web_rec_start_date ,
                                                                               web_rec_end_date  ,

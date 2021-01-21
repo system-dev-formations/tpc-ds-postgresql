@@ -22,7 +22,7 @@ LOAD CSV
                                i_manager_id           ,
                                i_product_name
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?item ( i_item_sk                 ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?item ( i_item_sk                 ,
                                                                       i_item_id              ,
                                                                        i_rec_start_date       ,
                                                                       i_rec_end_date         ,

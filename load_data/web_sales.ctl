@@ -34,7 +34,7 @@ LOAD CSV
                                  ws_net_paid_inc_ship_tax,
                                  ws_net_profit
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?web_sales (  ws_sold_date_sk        ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?web_sales (  ws_sold_date_sk        ,
                                                                               ws_sold_time_sk        ,
                                                                               ws_ship_date_sk        ,
                                                                               ws_item_sk             ,

@@ -28,7 +28,7 @@ LOAD CSV
     d_current_quarter        ,
     d_current_year 
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?date_dim ( d_date_sk,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?date_dim ( d_date_sk,
     d_date_id                ,
     d_date                   ,
     d_month_seq              ,

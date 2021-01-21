@@ -19,7 +19,7 @@ LOAD CSV
                                p_purpose        ,
                                p_discount_active
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?promotion (   p_promo_sk       , 
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?promotion (   p_promo_sk       ,
                                                                               p_promo_id       , 
                                                                               p_start_date_sk  , 
                                                                               p_end_date_sk    , 

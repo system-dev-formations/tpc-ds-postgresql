@@ -3,7 +3,7 @@ LOAD CSV
                               r_reason_id ,
                               r_reason_desc
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?reason (r_reason_sk  ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?reason (r_reason_sk  ,
                                                                          r_reason_id ,
                                                                          r_reason_desc
      )

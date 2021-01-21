@@ -6,7 +6,7 @@ LOAD CSV
                                               hd_vehicle_count
 
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?household_demographics (   hd_demo_sk         ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?household_demographics (   hd_demo_sk         ,
                                                                                             hd_income_band_sk  ,
                                                                                             hd_buy_potential   ,
                                                                                             hd_dep_count       ,

@@ -24,7 +24,7 @@ LOAD CSV
                                    wr_account_credit         ,
                                    wr_net_loss
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?web_returns ( wr_returned_date_sk       ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?web_returns ( wr_returned_date_sk       ,
                                                                                wr_returned_time_sk       ,
                                                                                wr_item_sk               ,
                                                                                wr_refunded_customer_sk   ,

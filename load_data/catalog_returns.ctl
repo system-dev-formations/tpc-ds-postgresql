@@ -27,7 +27,7 @@ LOAD CSV
                                        cr_store_credit           ,
                                        cr_net_loss
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?catalog_returns (    cr_returned_date_sk       ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?catalog_returns (    cr_returned_date_sk       ,
                                                                                       cr_returned_time_sk       ,
                                                                                       cr_item_sk                ,
                                                                                       cr_refunded_customer_sk   ,

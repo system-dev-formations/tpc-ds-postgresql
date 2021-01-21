@@ -10,7 +10,7 @@ LOAD CSV
     cd_dep_college_count   
 
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?customer_demographics ( cd_demo_sk,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?customer_demographics ( cd_demo_sk,
     cd_gender               ,
     cd_marital_status       ,
     cd_education_status     ,

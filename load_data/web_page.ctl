@@ -14,7 +14,7 @@ LOAD CSV
                               wp_image_count     ,
                               wp_max_ad_count
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?web_page (  wp_web_page_sk     ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?web_page (  wp_web_page_sk     ,
                                                                              wp_web_page_id     ,
                                                                              wp_rec_start_date  ,
                                                                              wp_rec_end_date    ,

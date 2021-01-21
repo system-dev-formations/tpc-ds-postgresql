@@ -7,7 +7,7 @@ LOAD CSV
     sm_contract             
 
 ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?ship_mode ( sm_ship_mode_sk,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?ship_mode ( sm_ship_mode_sk,
     sm_ship_mode_id         ,
     sm_type                 ,
     sm_code                 ,

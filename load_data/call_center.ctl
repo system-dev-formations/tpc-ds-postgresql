@@ -31,7 +31,7 @@ LOAD CSV
                                    cc_gmt_offset ,
                                    cc_tax_percentage
      ) 
-     INTO postgresql://postgres:password@localhost:5432/tpc-test?call_center ( cc_call_center_sk     ,
+     INTO postgresql://postgres:password@localhost:5432/tpc_test?call_center ( cc_call_center_sk     ,
                                                                          cc_call_center_id       ,
                                                                          cc_rec_start_date       ,
                                                                          cc_rec_end_date        ,
